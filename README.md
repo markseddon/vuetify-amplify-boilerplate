@@ -3,6 +3,10 @@
 ## Project setup
 ```
 npm install
+npm install -g @aws-amplify
+amplify init
+amplify add auth
+amplify push
 ```
 
 ### Compiles and hot-reloads for development
