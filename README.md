@@ -1,9 +1,11 @@
 # vuetify-boilerplate
 
 ## Project setup
+
+This assumes you have already installed the Amplify CLI tool and have configured an AWS profile with appropriate permissions
+
 ```
 npm install
-npm install -g @aws-amplify
 amplify init
 amplify add auth
 amplify push
@@ -23,6 +25,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
